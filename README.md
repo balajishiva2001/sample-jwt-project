@@ -36,34 +36,36 @@ Make sure you have the following installed:
 ---
 
 ### 2️⃣ Clone the Repository
-
+```bash
 git clone https://github.com/balajishiva2001/sample-jwt-project.git  
 cd sample-jwt-project
+```
 
 ---
 
 ### 3️⃣ Build the Project
 
 Using Maven Wrapper:
-
+```bash
 ./mvnw clean install
-
+```
 Or Maven directly:
-
+```bash
 mvn clean install
+```
 
 ---
 
 ### 4️⃣ Run the Application
 
 Start the Spring Boot server:
-
+```bash
 ./mvnw spring-boot:run
-
+```
 Or:
-
+```bash
 mvn spring-boot:run
-
+```
 Access the app at: http://localhost:8080
 
 ---
@@ -80,17 +82,18 @@ GET    | /api/user/profile | Access protected user profile
 ---
 
 ### 6️⃣ (Optional) Run Tests
-
+```bash
 ./mvnw test
-
+```
 Or:
-
+```bash
 mvn test
+```
 
 ---
 
 ## 📂 Project Structure
-
+```
 sample-jwt-project/  
 ├── src/  
 │   ├── main/  
@@ -100,6 +103,7 @@ sample-jwt-project/
 ├── mvnw                            # Maven wrapper scripts  
 ├── pom.xml                        # Maven build file  
 └── README.md                      # This file  
+```
 
 ---
 
